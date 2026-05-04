@@ -1,41 +1,10 @@
-# Virtual environments
-.venv/
-.venv_nlp/
-venv/
-env/
 
-# Python cache
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Secrets
-.env
-*.pem
-
-
-
-# Model weights and adapters
+camel_data/
+data/trocr_images/
 models/
-
-# Logs
-#logs/
-
-# Jupyter
-.ipynb_checkpoints/
-
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-
-
-# Files and folders
-
-data/raw_png
-sample_training_data/raw_png
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+__pycache__/
+*.pyc
