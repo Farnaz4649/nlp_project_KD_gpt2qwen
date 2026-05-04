@@ -1,0 +1,13 @@
+{
+  "model": "microsoft/trocr-base-handwritten",
+  "architecture": "TrOCR (Vision Encoder-Decoder Transformer)",
+  "num_train_samples": 1120,
+  "num_eval_samples": 280,
+  "num_epochs": 5,
+  "trainable_params": 333921792,
+  "train_loss": 3.18258063180106,
+  "eval_loss": 2.6840245723724365,
+  "cer": 1.1348,
+  "wer": 1.0604,
+  "note": "TrOCR fine-tuned on AHTD dataset with GPT transcriptions as labels"
+}
